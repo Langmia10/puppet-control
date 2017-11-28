@@ -26,13 +26,13 @@ mod 'ntp',
   :git    => 'https://github.com/Langmia10/puppet-ntp.git',
   :ref    => 'master'
 
-mod 'role',
-  :git    => 'https://github.com/Langmia10/puppet-role.git',
-  :ref    => 'development'
+#mod 'role',
+#  :git    => 'https://github.com/Langmia10/puppet-role.git',
+#  :ref    => 'development'
 
-mod 'profile',
-  :git    => 'https://github.com/Langmia10/puppet-profile.git',
-  :ref    => 'development'
+#mod 'profile',
+#  :git    => 'https://github.com/Langmia10/puppet-profile.git',
+#  :ref    => 'development'
 
 
 
