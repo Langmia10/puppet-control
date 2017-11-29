@@ -1,0 +1,10 @@
+---
+profile::nginx::vhosts:
+ - 'fqdn': 'testclient.xvg'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'testclient.xvg'
+   'port': 80
+   'server_aliases': 'testclent1a.xvg'
+classes:
+ - profile::nginx
