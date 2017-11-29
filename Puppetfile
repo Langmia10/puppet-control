@@ -27,7 +27,7 @@ mod 'ntp',
   :ref    => 'master'
 
 mod 'nginx',
-  :git    => 'https://github.com/Langmia10/puppet-ntp.nginx',
+  :git    => 'https://github.com/Langmia10/puppet-nginx.git',
   :ref    => 'master'
 
 
