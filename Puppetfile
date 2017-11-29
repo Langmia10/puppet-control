@@ -26,6 +26,13 @@ mod 'ntp',
   :git    => 'https://github.com/Langmia10/puppet-ntp.git',
   :ref    => 'master'
 
+mod 'nginx',
+  :git    => 'https://github.com/Langmia10/puppet-ntp.nginx',
+  :ref    => 'master'
+
+
+
+
 #mod 'role',
 #  :git    => 'https://github.com/Langmia10/puppet-role.git',
 #  :ref    => 'development'
