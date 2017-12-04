@@ -6,6 +6,11 @@ mod "puppetlabs/inifile",     '1.5.0'
 mod "puppetlabs/stdlib",      '4.11.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
+mod "garethr/docker",         '5.3.0'
+mod "puppetlabs/apt",         '3.0.0'
+mod "stahnma/epel",           '0.0.6' 
+mod "puppet/selinux",         '0.8.0'
+
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -21,13 +26,20 @@ mod 'ntp',
   :git    => 'https://github.com/Langmia10/puppet-ntp.git',
   :ref    => 'master'
 
-mod 'role',
-  :git    => 'https://github.com/Langmia10/puppet-role.git',
+mod 'nginx',
+  :git    => 'https://github.com/Langmia10/puppet-ntp.nginx',
   :ref    => 'master'
 
-mod 'profile',
-  :git    => 'https://github.com/Langmia10/puppet-profile.git',
-  :ref    => 'master'
+
+
+
+#mod 'role',
+#  :git    => 'https://github.com/Langmia10/puppet-role.git',
+#  :ref    => 'development'
+
+#mod 'profile',
+#  :git    => 'https://github.com/Langmia10/puppet-profile.git',
+#  :ref    => 'development'
 
 
 
